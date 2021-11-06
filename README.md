@@ -3,7 +3,7 @@ A simple TCP and UDP unix socket program written in C language
 # COMPILE
 gcc server.c -o Server  
 gcc client.c -o Client
-# What are the parameters
+# What are the Server and Client Parameters?
 ./Server [protocol type] [Port no]  
 protocol type ----> TCP = 1, UDP = 2  
 ./Client [protocol type] [Port no] [Server hostname]   
